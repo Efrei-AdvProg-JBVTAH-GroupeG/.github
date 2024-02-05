@@ -1,6 +1,6 @@
 **Needeed to follow this setup : Docker daemon**
 
-Otherwise it his host here : http://efrei-file-sharing.thibaulthenrion.com/
+Otherwise it is host here : http://efrei-file-sharing.thibaulthenrion.com/
 
 *The following prompts are bash prompts*
 
