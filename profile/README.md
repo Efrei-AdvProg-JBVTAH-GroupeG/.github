@@ -1,6 +1,9 @@
-Nécessaire pour lancer l'application : Le daemon de Docker
+**Needeed to follow this setup : Docker daemon**
 
-Les commandes suivantes sont des commandes Bash
+Otherwise it his host here : http://efrei-file-sharing.thibaulthenrion.com/
+
+*The following prompts are bash prompts*
+
 
 ## Step 1 : Docker network creation 
 
@@ -37,7 +40,7 @@ docker run -d --name authenticator \
     thibaulthen/authenticator:1.8
 ```
 
-* You now have three different accounts usable with the same password corresponding to INITIAL_PASSWORD in the precedent docker run commmand (adminadmin on default), here are their usernames : 
+* You now have three different accounts usable with the same password corresponding to INITIAL_PASSWORD (adminadmin by default) in the precedent docker run commmand, here are their usernames : 
     * Student-demo
     * Tutor-demo
     * *Admin-demo*
@@ -63,7 +66,7 @@ docker run -d --name docpostgres \
 
 ## Step 5 : Launching the document management microservice
 
-- Start the authentication microservice with the following command:
+- Start the document management microservice with the following command:
 
 ```bash
 docker run -d --name documentService \
@@ -88,6 +91,6 @@ docker run -d --name advprog-front \
     thibaulthen/front-document-api:1.0
 ```
 
-**You can now access our application by going to http://localhost:3000 in your browser**
+**You can now access our application by going to http://localhost:3000 in your browser.**
 
-Then, use the credientials from step 3 to connect
+Then, use the credentials (Tutor or Student) from step 3 to connect.
